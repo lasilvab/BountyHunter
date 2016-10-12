@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B509D5551D9FFF3200438A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D5541D9FFF3200438A6F /* AppDelegate.swift */; };
+		B509D5571D9FFF3200438A6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D5561D9FFF3200438A6F /* ViewController.swift */; };
+		B509D55A1D9FFF3200438A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B509D5581D9FFF3200438A6F /* Main.storyboard */; };
+		B509D55D1D9FFF3200438A6F /* BountyHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B509D55B1D9FFF3200438A6F /* BountyHunter.xcdatamodeld */; };
+		B509D55F1D9FFF3200438A6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B509D55E1D9FFF3200438A6F /* Assets.xcassets */; };
+		B509D5621D9FFF3200438A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B509D5601D9FFF3200438A6F /* LaunchScreen.storyboard */; };
+		B509D56B1D9FFFBA00438A6F /* Champagne & Limousines Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B509D5691D9FFFBA00438A6F /* Champagne & Limousines Bold.ttf */; };
+		B509D56C1D9FFFBA00438A6F /* Champagne & Limousines.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B509D56A1D9FFFBA00438A6F /* Champagne & Limousines.ttf */; };
+		B509D56E1DA0026600438A6F /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D56D1DA0026600438A6F /* CustomLabel.swift */; };
+		B509D5701DA00B6D00438A6F /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D56F1DA00B6D00438A6F /* Constantes.swift */; };
+		B509D5741DA0165000438A6F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D5731DA0165000438A6F /* CustomTextField.swift */; };
+		B509D5761DA026F700438A6F /* BountyHunter.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = B509D5751DA026F700438A6F /* BountyHunter.sqlite */; };
+		B509D5781DA02C2E00438A6F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B509D5771DA02C2E00438A6F /* CoreData.framework */; };
+		B509D5A11DA02F7000438A6F /* BountyHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B509D59F1DA02F7000438A6F /* BountyHunter.xcdatamodeld */; };
+		B509D5A31DA0357200438A6F /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B509D5A21DA0357200438A6F /* DBManager.swift */; };
+		B58FAC141DA93CDD00994613 /* FugitivosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FAC131DA93CDD00994613 /* FugitivosTableViewController.swift */; };
+		B58FAC171DA9454200994613 /* Fugitive+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FAC151DA9454200994613 /* Fugitive+CoreDataProperties.swift */; };
+		B58FAC181DA9454200994613 /* Fugitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FAC161DA9454200994613 /* Fugitive.swift */; };
+		B58FAC1A1DA954FD00994613 /* CapturadosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FAC191DA954FD00994613 /* CapturadosTableViewController.swift */; };
+		B58FAC1C1DA9684F00994613 /* NuevoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58FAC1B1DA9684F00994613 /* NuevoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B509D5511D9FFF3200438A6F /* BountyHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B509D5541D9FFF3200438A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B509D5561D9FFF3200438A6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B509D5591D9FFF3200438A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B509D55C1D9FFF3200438A6F /* BountyHunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BountyHunter.xcdatamodel; sourceTree = "<group>"; };
+		B509D55E1D9FFF3200438A6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B509D5611D9FFF3200438A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B509D5631D9FFF3200438A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B509D5691D9FFFBA00438A6F /* Champagne & Limousines Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines Bold.ttf"; sourceTree = "<group>"; };
+		B509D56A1D9FFFBA00438A6F /* Champagne & Limousines.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Champagne & Limousines.ttf"; sourceTree = "<group>"; };
+		B509D56D1DA0026600438A6F /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		B509D56F1DA00B6D00438A6F /* Constantes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		B509D5731DA0165000438A6F /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B509D5751DA026F700438A6F /* BountyHunter.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = BountyHunter.sqlite; sourceTree = "<group>"; };
+		B509D5771DA02C2E00438A6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B509D5A01DA02F7000438A6F /* BountyHunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BountyHunter.xcdatamodel; sourceTree = "<group>"; };
+		B509D5A21DA0357200438A6F /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B58FAC131DA93CDD00994613 /* FugitivosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FugitivosTableViewController.swift; sourceTree = "<group>"; };
+		B58FAC151DA9454200994613 /* Fugitive+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Fugitive+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B58FAC161DA9454200994613 /* Fugitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fugitive.swift; sourceTree = "<group>"; };
+		B58FAC191DA954FD00994613 /* CapturadosTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapturadosTableViewController.swift; sourceTree = "<group>"; };
+		B58FAC1B1DA9684F00994613 /* NuevoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuevoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B509D54E1D9FFF3200438A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B509D5781DA02C2E00438A6F /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B509D5481D9FFF3200438A6F = {
+			isa = PBXGroup;
+			children = (
+				B58FAC1B1DA9684F00994613 /* NuevoViewController.swift */,
+				B58FAC191DA954FD00994613 /* CapturadosTableViewController.swift */,
+				B58FAC151DA9454200994613 /* Fugitive+CoreDataProperties.swift */,
+				B58FAC161DA9454200994613 /* Fugitive.swift */,
+				B58FAC131DA93CDD00994613 /* FugitivosTableViewController.swift */,
+				B509D5A21DA0357200438A6F /* DBManager.swift */,
+				B509D59F1DA02F7000438A6F /* BountyHunter.xcdatamodeld */,
+				B509D5771DA02C2E00438A6F /* CoreData.framework */,
+				B509D5751DA026F700438A6F /* BountyHunter.sqlite */,
+				B509D5731DA0165000438A6F /* CustomTextField.swift */,
+				B509D56F1DA00B6D00438A6F /* Constantes.swift */,
+				B509D56D1DA0026600438A6F /* CustomLabel.swift */,
+				B509D5531D9FFF3200438A6F /* BountyHunter */,
+				B509D5521D9FFF3200438A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B509D5521D9FFF3200438A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B509D5511D9FFF3200438A6F /* BountyHunter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B509D5531D9FFF3200438A6F /* BountyHunter */ = {
+			isa = PBXGroup;
+			children = (
+				B509D5691D9FFFBA00438A6F /* Champagne & Limousines Bold.ttf */,
+				B509D56A1D9FFFBA00438A6F /* Champagne & Limousines.ttf */,
+				B509D5541D9FFF3200438A6F /* AppDelegate.swift */,
+				B509D5561D9FFF3200438A6F /* ViewController.swift */,
+				B509D5581D9FFF3200438A6F /* Main.storyboard */,
+				B509D55E1D9FFF3200438A6F /* Assets.xcassets */,
+				B509D5601D9FFF3200438A6F /* LaunchScreen.storyboard */,
+				B509D5631D9FFF3200438A6F /* Info.plist */,
+				B509D55B1D9FFF3200438A6F /* BountyHunter.xcdatamodeld */,
+			);
+			path = BountyHunter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B509D5501D9FFF3200438A6F /* BountyHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B509D5661D9FFF3200438A6F /* Build configuration list for PBXNativeTarget "BountyHunter" */;
+			buildPhases = (
+				B509D54D1D9FFF3200438A6F /* Sources */,
+				B509D54E1D9FFF3200438A6F /* Frameworks */,
+				B509D54F1D9FFF3200438A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BountyHunter;
+			productName = BountyHunter;
+			productReference = B509D5511D9FFF3200438A6F /* BountyHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B509D5491D9FFF3200438A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Luis Alfredo Silva";
+				TargetAttributes = {
+					B509D5501D9FFF3200438A6F = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5V7298M6MX;
+					};
+				};
+			};
+			buildConfigurationList = B509D54C1D9FFF3200438A6F /* Build configuration list for PBXProject "BountyHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B509D5481D9FFF3200438A6F;
+			productRefGroup = B509D5521D9FFF3200438A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B509D5501D9FFF3200438A6F /* BountyHunter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B509D54F1D9FFF3200438A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B509D5621D9FFF3200438A6F /* LaunchScreen.storyboard in Resources */,
+				B509D56C1D9FFFBA00438A6F /* Champagne & Limousines.ttf in Resources */,
+				B509D5761DA026F700438A6F /* BountyHunter.sqlite in Resources */,
+				B509D55F1D9FFF3200438A6F /* Assets.xcassets in Resources */,
+				B509D56B1D9FFFBA00438A6F /* Champagne & Limousines Bold.ttf in Resources */,
+				B509D55A1D9FFF3200438A6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B509D54D1D9FFF3200438A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58FAC171DA9454200994613 /* Fugitive+CoreDataProperties.swift in Sources */,
+				B509D5701DA00B6D00438A6F /* Constantes.swift in Sources */,
+				B509D5571D9FFF3200438A6F /* ViewController.swift in Sources */,
+				B509D5741DA0165000438A6F /* CustomTextField.swift in Sources */,
+				B509D5A31DA0357200438A6F /* DBManager.swift in Sources */,
+				B58FAC1C1DA9684F00994613 /* NuevoViewController.swift in Sources */,
+				B509D5551D9FFF3200438A6F /* AppDelegate.swift in Sources */,
+				B58FAC181DA9454200994613 /* Fugitive.swift in Sources */,
+				B58FAC1A1DA954FD00994613 /* CapturadosTableViewController.swift in Sources */,
+				B509D55D1D9FFF3200438A6F /* BountyHunter.xcdatamodeld in Sources */,
+				B509D5A11DA02F7000438A6F /* BountyHunter.xcdatamodeld in Sources */,
+				B58FAC141DA93CDD00994613 /* FugitivosTableViewController.swift in Sources */,
+				B509D56E1DA0026600438A6F /* CustomLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B509D5581D9FFF3200438A6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B509D5591D9FFF3200438A6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B509D5601D9FFF3200438A6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B509D5611D9FFF3200438A6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B509D5641D9FFF3200438A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B509D5651D9FFF3200438A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B509D5671D9FFF3200438A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BountyHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.SilvaLuisAlfredo.BountyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B509D5681D9FFF3200438A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BountyHunter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.SilvaLuisAlfredo.BountyHunter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B509D54C1D9FFF3200438A6F /* Build configuration list for PBXProject "BountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B509D5641D9FFF3200438A6F /* Debug */,
+				B509D5651D9FFF3200438A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B509D5661D9FFF3200438A6F /* Build configuration list for PBXNativeTarget "BountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B509D5671D9FFF3200438A6F /* Debug */,
+				B509D5681D9FFF3200438A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B509D55B1D9FFF3200438A6F /* BountyHunter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B509D55C1D9FFF3200438A6F /* BountyHunter.xcdatamodel */,
+			);
+			currentVersion = B509D55C1D9FFF3200438A6F /* BountyHunter.xcdatamodel */;
+			path = BountyHunter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		B509D59F1DA02F7000438A6F /* BountyHunter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B509D5A01DA02F7000438A6F /* BountyHunter.xcdatamodel */,
+			);
+			currentVersion = B509D5A01DA02F7000438A6F /* BountyHunter.xcdatamodel */;
+			path = BountyHunter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B509D5491D9FFF3200438A6F /* Project object */;
+}
